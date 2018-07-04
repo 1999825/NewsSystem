@@ -1,0 +1,6 @@
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemModels\bin\Debug\NewsSystemModels.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemModels\bin\Debug\NewsSystemModels.pdb
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemModels\obj\Debug\NewsSystemModels.csprojResolveAssemblyReference.cache
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemModels\obj\Debug\NewsSystemModels.csproj.CoreCompileInputs.cache
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemModels\obj\Debug\NewsSystemModels.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemModels\obj\Debug\NewsSystemModels.pdb

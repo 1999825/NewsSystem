@@ -1,0 +1,15 @@
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemUI.dll.config
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemUI.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemUI.pdb
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemBLL.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemModels.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemBLL.pdb
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemModels.pdb
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\obj\Debug\NewsSystemUI.csprojResolveAssemblyReference.cache
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\obj\Debug\NewsSystemUI.csproj.CoreCompileInputs.cache
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\obj\Debug\NewsSystemUI.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\obj\Debug\NewsSystemUI.pdb
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemDAL.dll
+C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemUI\bin\NewsSystemDAL.pdb
