@@ -1,0 +1,242 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Homepage.master.cs" Inherits="NewsSystemUI.Homepage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="JavaScript/jquery-3.2.1.js"></script>
+    <style>
+
+        * {
+            margin:0;
+            padding:0;          
+        }
+
+        /*头部样式*/
+        #header{
+            width: 100%;
+            min-width: 1200px;
+            height:100px;
+            background-color: #519ff1;
+            margin-bottom: 20px;
+        }
+
+      
+
+        h1{
+            margin-left: 110px;
+            line-height: 100px;
+            letter-spacing: 15px;
+        }
+
+        /*中部左边操作栏样式*/
+        #main{
+            width:100%;
+            min-width:1200px;
+            height:700px;   
+        }
+
+        #list{
+            width:13%;
+            height:700px;
+            float:left;
+            padding-left: 20px;
+        }
+
+        #target{
+            height: 660px;
+            line-height: 27px;
+            padding-left: 30px;
+            transition:0.5s;
+        }
+
+        .one{
+            width: 90px;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+
+        ul{
+            display:none;
+  
+        }
+
+        li{
+            list-style:none;
+            padding-left: 45px;
+        }
+
+        #main_body{
+            width:1%;
+            float:left;
+            height:700px;
+        }
+
+        #list_head{
+            
+            height: 40px;
+            background-color: mediumturquoise;
+            padding-left: 70px;
+            line-height: 40px;
+            border-radius:5px 5px 5px 5px;
+        }
+
+        h2{
+            color:white;
+            
+        }
+
+        /*中部右边子页面*/
+        #son{
+            width:84%;
+            height:700px;
+            float:left;
+        }
+
+        #son_head{
+            height: 40px;
+            background-color: mediumturquoise;
+            padding-left: 70px;
+            line-height: 40px;
+            border-radius:5px 5px 5px 5px;
+        }
+
+        /*尾部样式*/
+        #foot{
+            width:100%;
+            height:130px;
+            min-width:1200px;
+            background-color:#519ff1;
+            text-align: center;
+            font-size: 14px;
+            
+        }
+
+        #foot p{
+            margin-top: 10px;    
+        }
+
+        a{
+            color:#666;
+            text-decoration:none;
+        }
+
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <script>
+        $(function () {
+                var lock = false;
+                var b;                              
+    
+            $('.one').click(function () {
+                var a = $(this).attr('id').split('_')[1];
+                b = '.h_' + a;
+                if (lock == true) {
+                    
+                       $(this).next().css({
+                           'display': 'block'
+                       })
+                       $(b).attr("src", "images/b.jpg");
+                       lock = false;
+                   } else {
+                       $(this).next().css({
+                           'display': 'none'
+                       })
+                       $(b).attr("src", "images/a.jpg");
+                       lock = true;
+                }
+
+                })
+            })
+        </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="all">
+
+        <%--头部--%>
+        <div id="header">
+            <h1>新闻发布系统后台</h1>   
+        </div>
+    <div id="main">
+
+        <%--中部左边操作栏--%>
+        <div id="list">
+            <div id="list_head"><h2>导航栏</h2></div>
+
+            <div id="target">
+                       
+                    <p class="one w" id="w_1"><img class="h_1" src="images/a.jpg"/>环球经济</p>                        
+                    <ul>
+                        <li><a href="#">添加新闻</a></li>
+                        <li><a href="#">管理新闻</a></li>
+                    </ul>  
+                                                                           
+                    <p class="one w" id="w_2"><img class="h_2" src="images/a.jpg"/>军事世界</p>
+                    <ul>
+                        <li><a href="#">添加新闻</a></li>
+                        <li><a href="#">管理新闻</a></li>
+                    </ul>
+                    <p class="one w" id="w_3"><img class="h_3" src="images/a.jpg"/>科学技术</p>
+                    <ul>
+                        <li><a href="#">添加新闻</a></li>
+                        <li><a href="#">管理新闻</a></li>
+                    </ul>
+                    <p class="one w" id="w_4"><img class="h_4" src="images/a.jpg"/>生活理财</p>
+                    <ul>
+                        <li><a href="#">添加新闻</a></li>
+                        <li><a href="#">管理新闻</a></li>
+                    </ul>
+                    <p class="one w" id="w_5"><img class="h_5" src="images/a.jpg"/>社会百态</p>
+                    <ul>
+                        <li><a href="#">添加新闻</a></li>
+                        <li><a href="#">管理新闻</a></li>
+                    </ul>
+                    <p class="one w" id="w_6"><img class="h_6" src="images/a.jpg"/>世界体育</p>
+                    <ul>
+                        <li><a href="#">添加新闻</a></li>
+                        <li><a href="#">管理新闻</a></li>
+                    </ul>
+                    <p class="one w" id="w_7"><img class="h_7" src="images/a.jpg"/>娱乐综艺</p>
+                    <ul>
+                        <li><a href="#">添加新闻</a></li>
+                        <li><a href="#">管理新闻</a></li>
+                    </ul>
+                    <p class="one w" id="w_8"><img class="h_8" src="images/a.jpg"/>用户管理</p>
+                    <ul>
+                        <li><a href="#">添加用户</a></li>
+                        <li><a href="#">管理用户</a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div id="main_body"></div>
+
+        <%--中部右边子页面--%>
+        <div id="son">
+          <div id="son_head"><h2>浏览信息</h2></div> 
+        <asp:ContentPlaceHolder ID="Navigation" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+
+     </div>
+        <%--尾部--%>
+     <div id="foot">
+
+        <p>本网站所刊载信息，不代表中新社和中新网观点。 刊用本网站稿件，务经书面授权。</p>
+
+        <p>未经授权禁止转载、摘编、复制及建立镜像，违者将依法追究法律责任。</p>
+
+        <p>[<a href="/news/xuke.html">网上传播视听节目许可证（0106168)</a>] [<a href="http://www.miibeian.gov.cn/">京ICP证040655号</a>] [<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002003042" style="display:inline-block;height:20px;line-height:20px;">京公网安备 11000002003042号</a>] [<a href="http://www.miitbeian.gov.cn/">京ICP备05004340号-1</a>] 总机：86-10-87826688   <br/>违法和不良信息举报电话：15699788000   举报邮箱：jubao@chinanews.com.cn   <a href="/kong/2018/01-17/8426100.shtml">举报受理和处置管理办法</a></p>
+        <p style="font-family:arial;">Copyright ©1999-2018 chinanews.com. All Rights Reserved</p>
+
+    </div>
+     
+    </div>
+    </form>
+</body>
+</html>

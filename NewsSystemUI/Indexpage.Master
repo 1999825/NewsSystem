@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Indexpage.master.cs" Inherits="NewsSystemUI.Indexpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="JavaScript/jquery-3.2.1.js"></script>
+    <style>
+        * {
+            margin:0;
+            padding:0; 
+            font-size:14px;
+        }
+
+        #header{
+            width: 100%;
+            min-width: 1200px;
+            height:100px;
+            background-color: #519ff1;
+            
+        }
+
+      
+
+        h1{
+            margin-left: 110px;
+            line-height: 100px;
+            font-size:45px;
+            letter-spacing: 15px;
+        }
+
+        #navigation{
+            width: 100%;
+            min-width: 1200px;
+            height:50px;
+            background-color:#168491;
+        }
+
+        .ul_one{
+            height: 50px;
+            line-height: 50px;
+
+        }
+
+        .ul_one li{
+            width: 100px;
+            height: 50px;
+            border-right: 1px solid #fafafa;
+            float: left;
+            text-align: center;
+            list-style-type: none;
+            
+        }
+
+        #time{
+            width: 350px;
+            height: 50px;
+            color:whitesmoke;
+        }
+
+        #son{
+            width: 100%;
+            min-width: 1200px;
+            height:900px;
+
+        }
+
+
+        #foot{
+            width:100%;
+            height:130px;
+            min-width:1200px;
+            background-color:#519ff1;
+            text-align: center;
+            font-size: 14px;
+            
+        }
+
+        #foot p{
+            margin-top: 10px;    
+        }
+
+       #foot a{
+            color:#666;
+            text-decoration:none;
+        }
+
+       .ul_one a{
+            color:whitesmoke;
+            text-decoration:none;
+        }
+
+
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script>
+        $(function(){
+            function show() {
+                var mydate = new Date();
+                var str = "" + mydate.getFullYear() + "年";
+                str += (mydate.getMonth() + 1) + "月";
+                str += mydate.getDate() + "日";
+                return str;
+            }
+            
+            $("#time_sp").html("今天是: " + show());
+            
+        })       
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="total">
+        <div id="header">
+            <h1>新闻发布系统</h1>   
+        </div>
+
+        <div id="navigation">
+            
+            <ul class="ul_one">
+                <li id="time" ><span id="time_sp"></span></li>
+                <li><a href="NewsHomePage.aspx">首页</a></li>
+                <li><a href="#">时事</a></li>
+                <li><a href="#">经济</a></li>
+                <li><a href="#">军事</a></li>
+                <li><a href="#">科技</a></li>
+                <li><a href="#">生活</a></li>
+                <li><a href="#">社会</a></li>
+                <li><a href="#">体育</a></li>
+                <li><a href="#">娱乐</a></li>
+            </ul>
+        </div>
+
+        <div id="son">
+        <asp:ContentPlaceHolder ID="index" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="foot">
+
+        <p>本网站所刊载信息，不代表中新社和中新网观点。 刊用本网站稿件，务经书面授权。</p>
+
+        <p>未经授权禁止转载、摘编、复制及建立镜像，违者将依法追究法律责任。</p>
+
+        <p>[<a href="/news/xuke.html">网上传播视听节目许可证（0106168)</a>] [<a href="http://www.miibeian.gov.cn/">京ICP证040655号</a>] [<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002003042" style="display:inline-block;height:20px;line-height:20px;">京公网安备 11000002003042号</a>] [<a href="http://www.miitbeian.gov.cn/">京ICP备05004340号-1</a>] 总机：86-10-87826688   <br/>违法和不良信息举报电话：15699788000   举报邮箱：jubao@chinanews.com.cn   <a href="/kong/2018/01-17/8426100.shtml">举报受理和处置管理办法</a></p>
+        <p style="font-family:arial;">Copyright ©1999-2018 chinanews.com. All Rights Reserved</p>
+
+    </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Indexpage.Master" />
+    <Content Include="Homepage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -76,7 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="NewsHome.aspx" />
+    <Content Include="JavaScript\jquery-3.2.1.js" />
+    <Content Include="JavaScript\jquery.cookie.js" />
+    <Content Include="MoreNewsPage.aspx" />
+    <Content Include="NewsHomePage.aspx" />
+    <Content Include="NewsParticularPage.aspx" />
+    <Content Include="NewsSearchPage.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -85,17 +92,53 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="NewsHome.aspx.cs">
-      <DependentUpon>NewsHome.aspx</DependentUpon>
+    <Compile Include="Homepage.Master.cs">
+      <DependentUpon>Homepage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="NewsHome.aspx.designer.cs">
-      <DependentUpon>NewsHome.aspx</DependentUpon>
+    <Compile Include="Homepage.Master.designer.cs">
+      <DependentUpon>Homepage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Indexpage.Master.cs">
+      <DependentUpon>Indexpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Indexpage.Master.designer.cs">
+      <DependentUpon>Indexpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MoreNewsPage.aspx.cs">
+      <DependentUpon>MoreNewsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MoreNewsPage.aspx.designer.cs">
+      <DependentUpon>MoreNewsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsHomePage.aspx.cs">
+      <DependentUpon>NewsHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsHomePage.aspx.designer.cs">
+      <DependentUpon>NewsHomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsParticularPage.aspx.cs">
+      <DependentUpon>NewsParticularPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsParticularPage.aspx.designer.cs">
+      <DependentUpon>NewsParticularPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsSearchPage.aspx.cs">
+      <DependentUpon>NewsSearchPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewsSearchPage.aspx.designer.cs">
+      <DependentUpon>NewsSearchPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
