@@ -6,3 +6,12 @@ C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemDAL\obj\Deb
 C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.csproj.CoreCompileInputs.cache
 C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.dll
 C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.pdb
+E:\NewsSystem\NewsSystemDAL\bin\Debug\NewsSystemDAL.dll
+E:\NewsSystem\NewsSystemDAL\bin\Debug\NewsSystemDAL.pdb
+E:\NewsSystem\NewsSystemDAL\bin\Debug\NewsSystemModels.dll
+E:\NewsSystem\NewsSystemDAL\bin\Debug\NewsSystemModels.pdb
+E:\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.csprojResolveAssemblyReference.cache
+E:\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.csproj.CoreCompileInputs.cache
+E:\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.csproj.CopyComplete
+E:\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.dll
+E:\NewsSystem\NewsSystemDAL\obj\Debug\NewsSystemDAL.pdb

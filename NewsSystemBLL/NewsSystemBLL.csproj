@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddUserBll.cs" />
     <Compile Include="NewsInfoCRUD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterVerifyBll.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NewsSystemDAL\NewsSystemDAL.csproj">

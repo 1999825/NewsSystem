@@ -8,3 +8,14 @@ C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemBLL\obj\Deb
 C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.csproj.CoreCompileInputs.cache
 C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.dll
 C:\Users\朱亚涛\Desktop\ASP.Net 小组项目\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.pdb
+E:\NewsSystem\NewsSystemBLL\bin\Debug\NewsSystemBLL.dll
+E:\NewsSystem\NewsSystemBLL\bin\Debug\NewsSystemBLL.pdb
+E:\NewsSystem\NewsSystemBLL\bin\Debug\NewsSystemDAL.dll
+E:\NewsSystem\NewsSystemBLL\bin\Debug\NewsSystemModels.dll
+E:\NewsSystem\NewsSystemBLL\bin\Debug\NewsSystemDAL.pdb
+E:\NewsSystem\NewsSystemBLL\bin\Debug\NewsSystemModels.pdb
+E:\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.csprojResolveAssemblyReference.cache
+E:\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.csproj.CoreCompileInputs.cache
+E:\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.csproj.CopyComplete
+E:\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.dll
+E:\NewsSystem\NewsSystemBLL\obj\Debug\NewsSystemBLL.pdb

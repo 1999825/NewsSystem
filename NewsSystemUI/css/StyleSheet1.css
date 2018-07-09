@@ -1,0 +1,52 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:url(../images/1120.jpg);
+    background-size:100%,100%;
+}
+#Register_one {
+    width:450px;
+    height:300px;
+
+    margin: 0 auto;
+    margin-top:150px;
+}
+.h1tou {
+    color:darkslateblue;
+}
+.divbiaoti{
+    text-align:center;
+}
+.divhtr {
+    height: 220px;
+    width: 300px;
+    margin: 0 auto;
+   
+}
+    .divhtr > label {
+        margin-left: 50px;
+    }
+.txtnam {
+    margin-left: 100px;
+    width:70px;
+    height:20px;
+}
+.btn1, .btn2 {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 60px;
+    height: 25px;
+}
+.txtname1{
+    width:145px;
+    height:20px;
+}
+
+.divhtr > label, .txtname1 {
+    margin-top: 22px;
+}
+.ckcone {
+    margin-left: 60px;
+}
